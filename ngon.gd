@@ -24,9 +24,9 @@ func _process(delta_t):
 		reset()
 
 func reset():
-	# TODO: try `actually_reset` here instead of `bad_reset`.
-	#actually_reset()
-	bad_reset()
+	# TODO: try the other one.
+	actually_reset()
+	#bad_reset()
 
 func bad_reset():
 	if n < 3:

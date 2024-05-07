@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://ettmu43g4mi"]
+
+[ext_resource type="Script" path="res://wobble.gd" id="1_bvhqt"]
+
+[node name="Wobble" type="Node2D"]
+script = ExtResource("1_bvhqt")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-50, 50, 50, 50, 50, -50, -50, -50)
